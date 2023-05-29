@@ -1,0 +1,46 @@
+.title {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #111111;
+    
+}
+
+.input {
+    display: block;
+    width: 200px;
+    height: 22px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 2px solid darkgreen;
+    border-radius: 15px;
+    background-color: rgb(121, 177, 126);
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+    
+    &:hover,
+    &:focus {
+        border: 2px solid red;
+    }
+}
+
+input:focus,
+input:hover {
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    text-transform: uppercase;
+    border: 2px solid darkgreen;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+    
+    &:hover,
+    &:focus {
+        border: 2px solid red;
+    }
+}
+

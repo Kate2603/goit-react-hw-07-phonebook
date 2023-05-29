@@ -1,0 +1,18 @@
+.card {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 35px;
+    background-color: rgb(121, 177, 126);
+    border: 8px solid darkgreen;
+}
+
+.title {
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 20px;
+    color: #111111;
+}
