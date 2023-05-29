@@ -67,7 +67,7 @@ export const ContactForm = () => {
         Phone
         <input
           type="tel"
-          name="phone"
+          name="number"
           className={css.input}
           value={number}
           pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
@@ -86,7 +86,7 @@ ContactForm.propTypes = {
     PropTypes.exact({
       id: PropTypes.string.isRequired,
       name: PropTypes.string,
-      phone: PropTypes.string,
+      number: PropTypes.number,
     })
   ),
 };
